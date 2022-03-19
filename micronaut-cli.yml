@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.fernando
+testFramework: spock
+sourceLanguage: groovy
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jpa, flyway, gradle, groovy, groovy-application, http-client, jackson-databind, jdbc-hikari, logback, micronaut-build, netty-server, oracle, readme, shade, spock, testcontainers, yaml]

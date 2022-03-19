@@ -1,0 +1,28 @@
+micronaut:
+  application:
+    name: demooracle
+datasources:
+  default:
+    url: jdbc:oracle:thin:@//localhost:1521/XEPDB1
+    driverClassName: oracle.jdbc.OracleDriver
+    username: useroracle
+    password: 123456
+    schema-generate: NONE
+    dialect: ORACLE
+
+flyway:
+  enabled: true
+  datasources:
+    default:
+      enabled: true
+netty:
+  default:
+    allocator:
+      max-order: 3
+#jpa.default.properties.hibernate.hbm2ddl.auto: validate
+jpa.default.properties.hibernate.hbm2ddl.auto: none
+
+
+logger:
+  levels:
+    com.fernando.controller.ThingControllerController: DEBUG

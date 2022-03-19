@@ -1,0 +1,1 @@
+alter table "THING"  add DATE_BIRTH DATE;
